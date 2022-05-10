@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://devopsbrum.co.uk/"
 title        = "DevOps Birmingham"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
