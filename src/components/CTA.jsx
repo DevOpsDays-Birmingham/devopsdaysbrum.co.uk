@@ -1,4 +1,5 @@
 import {cfpLink, ticketURL} from "@/eventConfig";
+import {Button} from "@/components/Button";
 
 
 const ctaLinks = [
@@ -94,12 +95,7 @@ export default function CTA() {
                                         id={link.text}
                                         key={index}
                                     >
-                                        <a
-                                            className="flex rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-dodblue-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
-                                            href={link.url}
-                                        >
-                                            {link.text}
-                                        </a>
+                                        <Button href={link.url} textColour="dodblue-900" bgColour="white" hoverColour="dodblue-200" >{link.text}</Button>
                                     </li>
                                     )
                                 )}

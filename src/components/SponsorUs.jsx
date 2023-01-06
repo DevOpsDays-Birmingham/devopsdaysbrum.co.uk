@@ -1,5 +1,6 @@
 import {contactEmail} from "@/eventConfig";
 import {EnvelopeIcon} from '@heroicons/react/20/solid'
+import {Button} from "@/components/Button";
 
 export default function SponsorUs() {
     return (
@@ -18,17 +19,7 @@ export default function SponsorUs() {
                     <p className="mt-3 text-lg text-dodblue-300">
                         Sponsoring our devopsdays conference gives your organization an opportunity to speak with practitioners, managers, and executives from companies of all sizes and industries. Whether your goals include recruiting new talent, opening new markets, or connecting with your existing customers, this event will be the place to have those conversations with experts and leaders in tech innovation.
                     </p>
-                    <div className="mt-8">
-                        <div className="inline-flex rounded-md shadow">
-                            <a
-                                href="mailto:birmingham-uk@devopsdays.org"
-                                className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-dodblue-900 hover:bg-gray-50"
-                            >
-                                Email us
-                                <EnvelopeIcon className="-mr-1 ml-3 h-5 w-5 text-dodblue-300" aria-hidden="true" />
-                            </a>
-                        </div>
-                    </div>
+                            <Button href="mailto:birmingham-uk@devopsdays.org" textColour="dodblue-900" bgColour="white" hoverColour="dodblue-200" >Email us</Button>
                 </div>
             </div>
         </div>
