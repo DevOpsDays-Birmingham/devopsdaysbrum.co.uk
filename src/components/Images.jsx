@@ -1,32 +1,32 @@
 const images = [
   {
     name: 'DevOpsDays Audience',
-    source: '/audience-devopsdays.jpg',
+    source: './audience-devopsdays.jpg',
     class: '',
   },
   {
     name: 'DevOpsDays',
-    source: '/katie.jpg',
+    source: './katie.jpg',
     class: 'hidden lg:flex',
   },
   {
     name: 'DevOpsDays small group at social',
-    source: '/purecraft-small-group-devopsdays.jpg',
+    source: './purecraft-small-group-devopsdays.jpg',
     class: '',
   },
   {
     name: 'Millenium Point',
-    source: '/millenium-point.jpg',
+    source: './millenium-point.jpg',
     class: 'hidden sm:flex',
   },
   {
     name: 'Millenium Point',
-    source: '/mp-leon-adato.jpg',
+    source: './mp-leon-adato.jpg',
     class: 'hidden lg:flex',
   },
   {
     name: 'DevOpsDays attendee',
-    source: '/becky.jpg',
+    source: './becky.jpg',
     class: 'hidden sm:flex',
   },
 ]

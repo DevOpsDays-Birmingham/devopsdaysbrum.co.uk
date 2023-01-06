@@ -7,7 +7,7 @@ export default function SponsorUs() {
             <div className="h-56 bg-dodblue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
                 <img
                     className="h-full w-full object-cover"
-                    src="/sponsor-hero.jpg"
+                    src="./sponsor-hero.jpg"
                     alt=""
                 />
             </div>
