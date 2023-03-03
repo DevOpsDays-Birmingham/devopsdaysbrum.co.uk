@@ -1,48 +1,20 @@
-const images = [
-  {
-    name: 'DevOpsDays Audience',
-    source: './audience-devopsdays.jpg',
-    class: '',
-  },
-  {
-    name: 'DevOpsDays',
-    source: './katie.jpg',
-    class: 'hidden lg:flex',
-  },
-  {
-    name: 'DevOpsDays small group at social',
-    source: './purecraft-small-group-devopsdays.jpg',
-    class: '',
-  },
-  {
-    name: 'Millenium Point',
-    source: './millenium-point.jpg',
-    class: 'hidden sm:flex',
-  },
-  {
-    name: 'Millenium Point',
-    source: './mp-leon-adato.jpg',
-    class: 'hidden lg:flex',
-  },
-  {
-    name: 'DevOpsDays attendee',
-    source: './becky.jpg',
-    class: 'hidden sm:flex',
-  },
-]
 
-export function Images() {
+export function Images(props) {
+  const { images, title } = props
   return (
     <div className="mt-10 bg-white">
+        {title?<h2 className="pb-10 mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-dodblue-900 sm:text-5xl">
+            {title}
+        </h2>:null}
       <div className="mx-auto max-w-6xl pb-12">
         <ul
           role="list"
-          className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-3 xl:gap-x-8"
+          className="justify-center grid md:grid-cols-[repeat(auto-fit,_25%)] gap-x-4 gap-y-8 sm:gap-x-10 xl:gap-x-8"
         >
           {images.map((image, index) => (
             <li
               className={
-                'relative col-span-1 justify-center backdrop-opacity-10 ' +
+                'basis-1/2 relative justify-center backdrop-opacity-10' +
                 image.class
               }
               id={image.name}

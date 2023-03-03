@@ -3,9 +3,10 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { Sponsors } from '@/components/Sponsors'
 import {Images} from "@/components/Images";
 import CTA from "@/components/CTA";
+import {imageCloud, sponsors} from "@/eventConfig";
+import SponsorUs from "@/components/SponsorUs";
 
 export default function Home() {
   return (
@@ -23,8 +24,10 @@ export default function Home() {
           <CTA />
           {/*<Speakers />*/}
           {/*<Schedule />*/}
-          <Images />
-          <Sponsors />
+          <Images images={imageCloud}/>
+
+          <Images title="Our Amazing Sponsors" images={sponsors}/>
+          <SponsorUs/>
           {/*<Newsletter />*/}
           <CTA />
       </main>

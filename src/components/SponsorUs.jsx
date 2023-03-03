@@ -1,9 +1,9 @@
-import {contactEmail} from "@/eventConfig";
-import {EnvelopeIcon} from '@heroicons/react/20/solid'
 import {Button} from "@/components/Button";
 
 export default function SponsorUs() {
     return (
+        <section id="sponsors" aria-label="Sponsors" >
+            <container>
         <div className="relative bg-dodblue-800">
             <div className="h-56 bg-dodblue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
                 <img
@@ -23,5 +23,7 @@ export default function SponsorUs() {
                 </div>
             </div>
         </div>
+            </container>
+        </section>
     )
 }
