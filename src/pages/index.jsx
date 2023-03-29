@@ -7,6 +7,7 @@ import {Images} from "@/components/Images";
 import CTA from "@/components/CTA";
 import {imageCloud, sponsors} from "@/eventConfig";
 import SponsorUs from "@/components/SponsorUs";
+import {SponsorTiers} from "@/components/SponsorTiers";
 
 export default function Home() {
   return (
@@ -25,10 +26,8 @@ export default function Home() {
           {/*<Speakers />*/}
           {/*<Schedule />*/}
           <Images images={imageCloud}/>
-
-          <Images title="Our Amazing Sponsors" images={sponsors}/>
+          <SponsorTiers/>
           <SponsorUs/>
-          {/*<Newsletter />*/}
           <CTA />
       </main>
         <Footer />
