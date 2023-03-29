@@ -1,4 +1,5 @@
 import {Button} from "@/components/Button";
+import Image from "next/image";
 
 export default function SponsorUs() {
     return (
@@ -6,7 +7,7 @@ export default function SponsorUs() {
             <container>
         <div className="relative bg-dodblue-800">
             <div className="h-56 bg-dodblue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-                <img
+                <Image
                     className="h-full w-full object-cover"
                     src="./sponsor-hero.jpg"
                     alt=""
