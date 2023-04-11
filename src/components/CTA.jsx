@@ -20,7 +20,7 @@ export default function CTA() {
                         <div className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden" aria-hidden="true" />
                         <div className="mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:p-0">
                             <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-                                <Image
+                                <img
                                     className="rounded-3xl object-cover object-center shadow-2xl"
                                     src="./chairs.jpg"
                                     alt=""

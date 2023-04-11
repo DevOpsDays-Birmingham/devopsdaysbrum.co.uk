@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 export function Images(props) {
   const { images, title } = props
   return (
@@ -21,7 +20,7 @@ export function Images(props) {
               id={image.name}
               key={index}
             >
-              <Image
+              <img
                 className="h-100 overflow-hidden md:rounded-2xl"
                 src={image.source}
                 alt={image.name}
