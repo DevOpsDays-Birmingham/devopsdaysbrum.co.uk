@@ -24,7 +24,7 @@ export function Hero() {
               At DevOpsDays Birmingham UK we will be hosting a two day conference with a mix of talks, workshops and networking opportunities. We will be covering a wide range of topics including cloud, security, automation, infrastructure, culture and more.
             </p>
           </div>
-          <Button href="#" className="mt-10 w-full sm:hidden">
+          <Button href="https://ti.to/tech-events-birmingham/devopsdays-birmingham-uk-2023" className="mt-10 w-full sm:hidden">
             Get your tickets
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
